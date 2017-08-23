@@ -1,0 +1,24 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://vuejs.org/js/vue.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <button @click="click1">Inc value1</button>
+            <button @click="value2++">Inc value2</button>
+            <button @click="value3++">Inc value3</button>
+            <p>{{ getValue1 }}</p>
+            <p>{{ getValue2 }}</p>
+            <p>{{ getValue3 }}</p>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
